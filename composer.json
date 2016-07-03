@@ -10,5 +10,5 @@
     },
     "autoload": {
     },
-    "bin": ["bin/server.php"]
+    "bin": ["bin/server"]
 }
