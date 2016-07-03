@@ -1,0 +1,13 @@
+{
+    "name": "aceougi/server",
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "zendframework/zend-diactoros": "*",
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+    }
+}
