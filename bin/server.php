@@ -34,4 +34,4 @@ if (is_resource($process))
 proc_close($process);
 
 
-\Composer\Autoload\
+//\Composer\Autoload\
