@@ -1,7 +1,23 @@
 <?php //require __DIR__.'/../../../autoload.php';
 
+$composer_path = dirname(__DIR__, 3);
+$project_path = dirname(__DIR__, 4);
+
+if (!file_exists($composer_path.'/autoload.php'))
+    echo('Error, composer path not found !'.PHP_EOL);
+
+if (!file_exists($project_path.'/composer.json'))
+    echo('Error, project path not found !'.PHP_EOL);
+
+$composer_path = '';
+$vendor_path = '';
+
+var_dump(getcwd());
 var_dump($argc);
 var_dump($argv);
+
+
+exit('Error, test path not found !');
 
 exit;
 
