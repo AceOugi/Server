@@ -8,5 +8,5 @@
     },
     "autoload": {
     },
-    "bin": ["bin/server"]
+    "bin": ["server"]
 }
