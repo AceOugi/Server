@@ -1,6 +1,11 @@
-<?php require __DIR__.'/../../../autoload.php';
+<?php //require __DIR__.'/../../../autoload.php';
 
-$cmd = 'ping riot.de'; // php -S 127.0.0.1:8080 router.php
+var_dump($argc);
+var_dump($argv);
+
+exit;
+
+$cmd = 'php -S 127.0.0.1:8080 router.php';
 
 chdir(__DIR__.'/../../../../');
 
@@ -22,9 +27,11 @@ if (is_resource($process))
     while ($s = fgets($pipes[1]))
     {
         echo $s;
-        ob_flush();
         flush();
     }
 }
 
 proc_close($process);
+
+
+\Composer\Autoload\
